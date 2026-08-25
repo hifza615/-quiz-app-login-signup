@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Quiz</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <main class="quiz-page">
+    <section class="quiz-card">
+      <div class="quiz-header">
+        <div>
+          <p class="eyebrow">WEB DEVELOPMENT QUIZ</p>
+          <h2 id="questionNumber">Question 01 / 25</h2>
+        </div>
+        <div class="timer-box">
+          <span>⏱️ Time Remaining</span>
+          <strong id="timer">30</strong>
+        </div>
+      </div>
+
+      <div class="progress-track">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+
+      <p id="category" class="category">HTML</p>
+      <h1 id="questionText">Question goes here</h1>
+
+      <div id="options" class="options"></div>
+
+      <button id="nextBtn" class="primary-btn next-btn" disabled>Next Question →</button>
+    </section>
+  </main>
+  <script src="js/quiz.js"></script>
+</body>
+</html>
